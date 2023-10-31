@@ -13,11 +13,13 @@ Compare SVM and BERT performance in this cross-domain classification task.
 Data sets: annotated_pubmed.csv, annotated_eureka.csv
 
 **Task 2: Zero-Shot Classification**
+
 Utilize the Huggingface zero-shot-classification pipeline to predict causal claim strength in the labeled datasets.
 Report precision, recall, F1 scores in each category, and macro-F1.
 Evaluate if the zero-shot classifier performs consistently well in both domains.
 
 **Task 3: Clustering**
+
 Perform clustering analysis using 10,000 health news headlines.
 Build a cluster model using SBERT+kMeans and another using BERTopic.
 Compare the insights provided by these two models. Examine how they differ in the health topics they discover.
